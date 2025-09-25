@@ -25,10 +25,10 @@ It computes descriptive statistics, comparisons between different substances at 
 
 Two deployment options are supported:
 
-1. **Portable installer (EXE)** — self-contained installer may bundle a fixed R version and all required packages; installs a shortcut that opens the Shiny app in the web browser. Recommended for non-R users.
+1. **Portable installer (EXE)** — self-contained installer may bundle a fixed R version and all required packages; installs a shortcut that opens the Shiny app in the web browser. Recommended for non-R users.[![Download EXE](https://img.shields.io/badge/Download-FluoSta%20(EXE)-blue?logo=download)](https://drive.google.com/uc?export=download&id=1v9KFvy9VKA4giGzGRNiy9-w_UfEHhEjB)
 
-2. **Run in R / RStudio** — open the provided R script and run it (or press **Run App** in RStudio). Ensure required packages are installed.
-
+2. **Run in R / RStudio** — open the provided R script and run it (or press **Run App** in RStudio).
+   
 > To test and verify the program, it is recommended to first run it on the provided example datasets in the `Example_dataset1` and `Example_dataset2` folders.
 ---
 
