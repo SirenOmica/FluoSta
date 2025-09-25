@@ -1,6 +1,5 @@
-# FluoSta
-
-*Authors: Nokhova A.R., Elfimov K.A.*
+# FluoSta 
+*<sub>Authors: Nokhova A.R., Elfimov K.A.</sub>*
 
 ---
 ## CONTACT & CITATION
