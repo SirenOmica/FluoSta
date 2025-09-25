@@ -1,16 +1,15 @@
 # FluoSta
 
-**Authors:** Nokhova A.R., Elfimov K.A.
+*Authors: Nokhova A.R., Elfimov K.A.*
 
 ---
-
 ## CONTACT & CITATION
 
 If you use this software in a publication, please cite:
 
 **Elfimov K.A. et al. (2025)** — *Pipeline Analysis of Chemical Compound Internalization Using Imaging Flow Cytometry with FluoSta Software.*
 
-For technical support: `alina.nokhova@gmail.com`
+**For technical support: `alina.nokhova@gmail.com`**
 
 ---
 
@@ -142,3 +141,9 @@ Effect-size measures (ω², GES, Cohen’s d/dz) require sufficient numbers of i
 - Preferably aim for **≥ 5 replicates per substance**.
 - When sample size is limited, report effect sizes **with 95% confidence intervals** and avoid strong conclusions based solely on p-values.
 
+---
+
+## Authors & Contributions
+
+- **Nokhova A.R.** — Conceptualization, software development (R/Shiny), user interface design, documentation.  
+- **Elfimov K.A.** — Experimental data acquisition, preparation of raw datasets, testing, and feedback on analysis workflows.
