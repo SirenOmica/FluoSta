@@ -41,14 +41,12 @@ The portable installer is **self-contained**: it includes a specific R runtime, 
 ### 2) Run from source (R / RStudio)
 If you prefer to run the app from source, use this option.
 
-**Steps to download from GitHub:**
+**Steps**
 1. Go to the repository page on GitHub https://github.com/SirenOmica/FluoSta
 2. Click **Code → Download ZIP** and save the archive to your computer.
 3. Unzip the archive.
-
-**Run in RStudio:**
-1. Open `FluoSta.R` in RStudio.
-2. Press **Run App** (top-right of the script editor) — the app will start and open in your browser.
+4. Open `FluoSta.R` in RStudio.
+5. Press **Run App** (top-right of the script editor) — the app will start and open in your browser.
 
 > To test and verify the program, it is recommended to first run it on the provided example datasets in the `Example_dataset1` and `Example_dataset2` folders.
 ---
