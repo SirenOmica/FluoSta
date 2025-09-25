@@ -1,0 +1,16 @@
+Statistics Report										
+										
+File	Count, single cells & time & focus	%Gated, single cells & time & focus, time & focus	Count, apoptosis cells & single cells & time & focus	%Gated, apoptosis cells & single cells & time & focus, single cells & time & focus	Count, dead cells by apoptosis & single cells & time & focus	%Gated, dead cells by apoptosis & single cells & time & focus, single cells & time & focus	Count, viable cells & single cells & time & focus	Aspect Ratio_M01, Median, single cells & time & focus	Homogenity_BF, Median, single cells & time & focus	Circularity_BF, Median, single cells & time & focus
+4046_AnnexinV-FITC_PI_1.daf	2879	23,0819	2446	84,9601	94	3,265	225	0,9279	16,9558	15,7138
+4046_AnnexinV-FITC_PI_2.daf	2912	23,4479	2418	83,0357	129	4,4299	251	0,9297	16,9438	15,7097
+4046_AnnexinV-FITC_PI_3.daf	3077	24,2398	2529	82,1904	125	4,0624	279	0,9299	16,9315	15,7219
+Bs_AnnexinV-FITC_PI_1.daf	2212	19,1598	1585	71,6546	115	5,1989	275	0,9163	16,4396	14,4988
+Bs_AnnexinV-FITC_PI_2.daf	2330	19,9828	1603	68,7983	147	6,309	287	0,9173	16,4366	14,4955
+Bs_AnnexinV-FITC_PI_3.daf	2415	20,2092	1677	69,441	143	5,9213	298	0,9159	16,579	14,5125
+Zn_AnnexinV-FITC_PI_1.daf	2119	16,0689	1159	54,6956	130	6,135	589	0,9197	16,7618	14,8463
+Zn_AnnexinV-FITC_PI_2.daf	2308	17,6466	1302	56,4125	151	6,5425	606	0,9242	16,7627	15,0631
+Zn_AnnexinV-FITC_PI_3.daf	1546	22,3961	847	54,7865	147	9,5084	373	0,9238	16,7143	14,6606
+										
+										
+										
+This file was created at: 19.08.2025 15:33:47										
