@@ -29,8 +29,7 @@ Two deployment options are supported:
 The portable installer is **self-contained**: it includes a specific R runtime, all required R packages and the example datasets, so you do **not** need to install R or packages separately.
 
 **Steps:**
-1. Download `FluoStaInstaller.exe` by clicking the badge below:  
-   [![Download EXE](https://img.shields.io/badge/Download-FluoSta%20(EXE)-blue?logo=download)](https://drive.google.com/uc?export=download&id=1v9KFvy9VKA4giGzGRNiy9-w_UfEHhEjB)
+1. Download `FluoStaInstaller.exe` by clicking:  [![Download EXE](https://img.shields.io/badge/Download-FluoSta%20(EXE)-blue?logo=download)](https://drive.google.com/uc?export=download&id=1v9KFvy9VKA4giGzGRNiy9-w_UfEHhEjB)
 2. Run the installer and follow the on-screen instructions (you may need administrator rights on some systems).
 3. After installation a desktop/start-menu shortcut will be created. **Click the FluoSta shortcut** to launch the app — it will open in your default web browser.
 
