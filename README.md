@@ -36,7 +36,7 @@ The portable installer is **self-contained**: it includes a specific R runtime, 
 
 > If the download page shows a Google Drive preview instead of direct download, click the Drive **Download** button.
 
----
+> To test and verify the program, it is recommended to first run it on the provided example datasets in the `Example_dataset1` and `Example_dataset2` folders.
 
 ### 2) Run from source (R / RStudio)
 If you prefer to run the app from source, use this option.
@@ -46,12 +46,10 @@ If you prefer to run the app from source, use this option.
 2. Click **Code → Download ZIP** and save the archive to your computer.
 3. Unzip the archive.
 
-**Run in RStudio (recommended):**
+**Run in RStudio:**
 1. Open `FluoSta.R` in RStudio.
 2. Press **Run App** (top-right of the script editor) — the app will start and open in your browser.
 
-**Run in R (console)**
-   
 > To test and verify the program, it is recommended to first run it on the provided example datasets in the `Example_dataset1` and `Example_dataset2` folders.
 ---
 
