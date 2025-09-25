@@ -34,8 +34,7 @@ The portable installer is **self-contained**: it includes a specific R runtime, 
 2. Run the installer and follow the on-screen instructions (you may need administrator rights on some systems).
 3. After installation a desktop/start-menu shortcut will be created. **Click the FluoSta shortcut** to launch the app — it will open in your default web browser.
 
-**Notes:**
-- If the download page shows a Google Drive preview instead of direct download, click the Drive **Download** button.
+> If the download page shows a Google Drive preview instead of direct download, click the Drive **Download** button.
 
 ---
 
@@ -51,7 +50,7 @@ If you prefer to run the app from source, use this option.
 1. Open `FluoSta.R` in RStudio.
 2. Press **Run App** (top-right of the script editor) — the app will start and open in your browser.
 
-**Run in R (console):**
+**Run in R (console)**
    
 > To test and verify the program, it is recommended to first run it on the provided example datasets in the `Example_dataset1` and `Example_dataset2` folders.
 ---
