@@ -42,7 +42,7 @@ The portable installer is **self-contained**: it includes a specific R runtime, 
 If you prefer to run the app from source, use this option.
 
 **Steps to download from GitHub:**
-1. Go to the repository page on GitHub.
+1. Go to the repository page on GitHub https://github.com/SirenOmica/FluoSta
 2. Click **Code → Download ZIP** and save the archive to your computer.
 3. Unzip the archive.
 
