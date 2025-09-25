@@ -1,0 +1,23 @@
+
+Experiment1_12hours
+
+File	Count, All	Count, live cells & single cells & time & focus	%Gated, live cells & single cells & time & focus, single cells & time & focus	Count, FAM+ cells & live cells & single cells & time & focus	%Gated, FAM+ cells & live cells & single cells & time & focus, live cells & single cells & time & focus	Count, Internalizated probes & FAM+ cells & live cells & single cells & time & focus	%Gated, Internalizated probes & FAM+ cells & live cells & single cells & time & focus, FAM+ cells & live cells & single cells & time & focus	Internalization_Erode(M01, 4)_Ch02, Median, Internalizated probes & FAM+ cells & live cells & single cells & time & focus	Cytoplasm intensity, Median, FAM+ cells & live cells & single cells & time & focus	Membrane intensity, Median, FAM+ cells & live cells & single cells & time & focus	Cytoplasm_median pixel, Median, FAM+ cells & live cells & single cells & time & focus	Cytoplasm_max pixel, Median, FAM+ cells & live cells & single cells & time & focus	Membrane_median pixel, Median, FAM+ cells & live cells & single cells & time & focus	Membrane_max pixel, Median, FAM+ cells & live cells & single cells & time & focus	
+3`_FAM_PI_AF700_1.daf	30000,0000	13873,0000	95,0987	232,0000	1,6723	217,0000	93,5345	2,3442	7717,1525	4617,8337	76,8291	240,2633	11,4352	167,5722	
+3`_FAM_PI_AF700_2.daf	30000,0000	11948,0000	94,5403	229,0000	1,9166	220,0000	96,0699	2,4004	8243,7742	4802,1620	79,2772	261,6991	9,7734	191,5956	
+3`_FAM_PI_AF700_3.daf	30000,0000	9780,0000	94,1834	184,0000	1,8814	173,0000	94,0217	2,2715	7884,1790	4589,9436	77,7046	226,8485	10,7788	160,1219	
+5`_FAM_PI_AF700_1.daf	30000,0000	14830,0000	90,9035	385,0000	2,5961	375,0000	97,4026	2,1506	9214,7607	4297,7868	112,9081	208,4398	11,3843	141,2316	
+5`_FAM_PI_AF700_2.daf	30000,0000	11072,0000	86,3381	323,0000	2,9173	312,0000	96,5944	2,3384	9648,7143	4255,3333	117,3289	214,6029	11,2500	142,6528	
+5`_FAM_PI_AF700_3.daf	30000,0000	8183,0000	84,7452	271,0000	3,3117	264,0000	97,4170	2,1643	9428,0987	4157,6136	115,7824	204,0163	11,2824	139,5846	
+5`3`_FAM_PI_AF700_1.daf	30000,0000	10769,0000	94,2417	509,0000	4,7265	499,0000	98,0354	2,2187	9618,9398	4077,7500	118,0076	223,0444	10,6806	148,2731	
+5`3`_FAM_PI_AF700_2.daf	30000,0000	8860,0000	93,3713	429,0000	4,8420	423,0000	98,6014	2,4229	9874,4228	3788,0875	121,0643	229,2174	9,7576	145,2228	
+5`3`_FAM_PI_AF700_3.daf	30000,0000	5552,0000	92,5796	250,0000	4,5029	246,0000	98,4000	2,5400	9823,7433	3922,9411	115,6765	233,1818	10,6366	151,1362	
+Control_FAM_PI_AF700_1.daf	30000,0000	18725,0000	95,3120	0,0000	0,0000	0,0000	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+Control_FAM_PI_AF700_2.daf	30000,0000	17364,0000	94,7248	0,0000	0,0000	0,0000	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+Control_FAM_PI_AF700_3.daf	30000,0000	15397,0000	94,2750	0,0000	0,0000	0,0000	NaN	NaN	NaN	NaN	NaN	NaN	NaN	NaN	
+Int_FAM_PI_AF700_1.daf	30000,0000	15422,0000	96,2972	1466,0000	9,5059	1444,0000	98,4993	2,5978	8575,3492	3849,9469	85,9627	252,1423	11,0315	147,6252	
+Int_FAM_PI_AF700_2.daf	30000,0000	13752,0000	95,4271	1392,0000	10,1222	1374,0000	98,7069	2,5821	8563,2161	3942,9018	86,5077	242,8754	10,7064	147,7704	
+Int_FAM_PI_AF700_3.daf	30000,0000	10357,0000	94,8704	987,0000	9,5298	977,0000	98,9868	2,6004	8682,5926	3788,8786	92,7461	254,8000	10,7250	146,9669	
+
+
+
+This file was created at: 25.07.2025 15:55:05
