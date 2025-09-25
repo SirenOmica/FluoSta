@@ -25,12 +25,37 @@ It computes descriptive statistics, comparisons between different substances at 
 
 Two deployment options are supported:
 
-1. **Portable installer (EXE)** — self-contained installer may bundle a fixed R version and all required packages; installs a shortcut that opens the Shiny app in the web browser. Recommended for non-R users.[![Download EXE](https://img.shields.io/badge/Download-FluoSta%20(EXE)-blue?logo=download)](https://drive.google.com/uc?export=download&id=1v9KFvy9VKA4giGzGRNiy9-w_UfEHhEjB)
+### 1) Portable installer (EXE) — recommended for non-R users
+The portable installer is **self-contained**: it includes a specific R runtime, all required R packages and the example datasets, so you do **not** need to install R or packages separately.
 
-2. **Run in R / RStudio** — open the provided R script and run it (or press **Run App** in RStudio).
+**Steps:**
+1. Download `FluoStaInstaller.exe` by clicking the badge below:  
+   [![Download EXE](https://img.shields.io/badge/Download-FluoSta%20(EXE)-blue?logo=download)](https://drive.google.com/uc?export=download&id=1v9KFvy9VKA4giGzGRNiy9-w_UfEHhEjB)
+2. Run the installer and follow the on-screen instructions (you may need administrator rights on some systems).
+3. After installation a desktop/start-menu shortcut will be created. **Click the FluoSta shortcut** to launch the app — it will open in your default web browser.
+
+**Notes:**
+- If the download page shows a Google Drive preview instead of direct download, click the Drive **Download** button.
+
+---
+
+### 2) Run from source (R / RStudio)
+If you prefer to run the app from source, use this option.
+
+**Steps to download from GitHub:**
+1. Go to the repository page on GitHub.
+2. Click **Code → Download ZIP** and save the archive to your computer.
+3. Unzip the archive.
+
+**Run in RStudio (recommended):**
+1. Open `FluoSta.R` in RStudio.
+2. Press **Run App** (top-right of the script editor) — the app will start and open in your browser.
+
+**Run in R (console):**
    
 > To test and verify the program, it is recommended to first run it on the provided example datasets in the `Example_dataset1` and `Example_dataset2` folders.
 ---
+
 
 ## [!] IMPORTANT (INPUT FILES)
 
