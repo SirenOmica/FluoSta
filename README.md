@@ -118,5 +118,3 @@ Effect-size measures (ω², GES, Cohen’s d/dz) require sufficient numbers of i
 - Estimates are often unreliable for **fewer than 3 distinct biological replicates** per group; treat results as *exploratory*.
 - Preferably aim for **≥ 5 replicates per substance**.
 - When sample size is limited, report effect sizes **with 95% confidence intervals** and avoid strong conclusions based solely on p-values.
-
----
