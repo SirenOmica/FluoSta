@@ -34,6 +34,10 @@ The portable installer is **self-contained**: it includes a specific R runtime, 
 3. After installation a desktop/start-menu shortcut will be created. **Click the FluoSta shortcut** to launch the app — it will open in your default web browser.
 
 > If the download page shows a Google Drive preview instead of direct download, click the Drive **Download** button.
+ 
+> When downloading from Google Drive, you may see a standard warning:  
+   *"Google Drive can't scan this file for viruses because it is too large."*  
+   This is normal for big files — just click **Download anyway**. The file is safe if downloaded from the official project link.
 
 > To test and verify the program, it is recommended to first run it on the provided example datasets in the `Example_dataset1` and `Example_dataset2` folders.
 
