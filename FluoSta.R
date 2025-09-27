@@ -24,7 +24,7 @@ ui <- fluidPage(
   p(
     style = "background-color: #FFF4E6; padding: 8px 12px; border-radius: 6px; display: inline-block;",
     span(style = "color: #000000;", "Please cite: "),
-    strong(style = "color: #E7670E;", "Elfimov K.A. (2025) Pipeline Analysis of Chemical Compound Internalization Us-ing Imaging Flow Cytometry with FluoSta Software")
+    strong(style = "color: #E7670E;", "Elfimov K.A. (2025) Pipeline Analysis of Chemical Compound Internalization Using Imaging Flow Cytometry with FluoSta Software")
   ),
   p("For technical support regarding FluoSta, contact: alina.nokhova@gmail.com"),
   
