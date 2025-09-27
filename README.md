@@ -37,6 +37,16 @@ The portable installer is **self-contained**: it includes a specific R runtime, 
    *"Google Drive can't scan this file for viruses because it is too large."*  
    This is normal for big files — just click **Download anyway**. The file is safe if downloaded from the official project link.
 
+> **Windows / Installer warning**  
+> You may see a Windows warning like **“Windows protected your PC”** (SmartScreen) or a UAC prompt when opening the EXE. This behaviour is *normal for unsigned / newly published exe files* and does not necessarily mean the program is malicious.
+> 
+> **What to do:**
+> - If you obtained the EXE from the **official project link on GitHub** (the Google Drive link shown above), the file is considered safe to install.  
+> - Click **More info → Run anyway** if SmartScreen appears and you trust the source.  
+> - If the installer requires elevated rights, choose **Run as administrator**.
+
+
+
 > To test and verify the program, it is recommended to first run it on the provided example datasets in the `Example_dataset1` and `Example_dataset2` folders.
 
 ### 2) Run from source (R / RStudio)
