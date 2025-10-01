@@ -14,8 +14,8 @@ If you use this software in a publication, please cite:
 
 ## QUICK SUMMARY
 
-FluoSta is an R/Shiny application for batch statistical analysis and visualization of tabular outputs (TXT) from imaging flow cytometer (IDEAS).  
-It computes descriptive statistics, comparisons between different substances at individual time points (one-way ANOVA with Tukey post-hoc tests), and longitudinal comparisons of parameters for a single substance across multiple time points (RM-ANOVA with pairwise t-tests).
+FluoSta is an R/Shiny application for batch statistical analysis and visualization of tabular outputs (TXT) **from imaging flow cytometer (IDEAS)**.  
+It computes descriptive **statistics**, comparisons between different substances at individual time points (one-way ANOVA with Tukey post-hoc tests), and longitudinal comparisons of parameters for a single substance across multiple time points (RM-ANOVA with pairwise t-tests).
 
 ---
 
