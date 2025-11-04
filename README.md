@@ -72,7 +72,7 @@ If you prefer to run the app from source, use this option.
 
 ### Filename rules (before `.daf`)
 1. **Allowed characters:** Latin letters `A–Z`, `a–z`; digits `0–9`; underscore `_`; hyphen `-`.
-2. **Not allowed:** spaces or special symbols such as `/ \ : * ? " < > | & % $ # @ !`.
+2. **Not allowed:** `spaces / \ : * ? " < > | & % $ # @ !`.
 3. **Required pattern:** there must be a separator (`_` or `-`) immediately before the numeric sample identifier and the `.daf` extension:
    - Expected forms: `<base_name>_<N>.daf` or `<base-name>-<N>.daf`
    - Examples: `4046_AnnexinV-FITC_PI_1.daf`, `sampleA_2.daf`
