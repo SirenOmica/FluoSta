@@ -66,7 +66,7 @@ If you prefer to run the app from source, use this option.
 ## [!] IMPORTANT (INPUT FILES)
 
 - **Input files:** `.txt` tab-delimited tables. A header line containing a column named `File` is required.  
-  The app expects valid data rows where `File` contains a suffix like `_NN.daf` (e.g. `sampleA_1.daf`).
+  The app expects valid data rows where `File` contains a suffix like `_NN.daf` (e.g. `sampleA_1.daf`, `sampleA_2.daf`, `sampleA_3.daf`...).
 
 - **[!] CRITICAL:** Names of substances **MUST** match exactly across all `.txt` files. If the same substance is written differently in different files (for example `sample-A` vs `sample_A`), the software will treat them as different substances.
 
@@ -89,9 +89,9 @@ If you prefer to run the app from source, use this option.
 |---|:---:|---|
 | `4046_AnnexinV_FITC_PI_1.daf` | ✅ | Correct separator and allowed chars; trailing numeric ID present |
 | `4046_AnnexinV_FITC_PI_2.daf` | ✅ | Same base name across substance — good |
+| `4046_AnnexinV-FITC_PI_1.daf` | ❌ | Different separator vs other file (`-` instead of `_`) — will be treated as different substance |
 | `sampleA_1.daf` | ✅ | Simple valid name |
 | `sample A 1.daf` | ❌ | Contains spaces — prohibited |
-| `4046_AnnexinV-FITC_PI_1.daf` | ❌ | Different separator vs other file (`-` instead of `_`) — will be treated as different substance |
 | `sample_1` | ❌ | Missing `.daf` extension |
 | `sample_AnnexinV1.daf` | ❌ | Missing separator before numeric ID — parser will not detect `Num` correctly |
 
@@ -109,8 +109,6 @@ The app prints significance stars according to p-values:
 - `p < 0.01` → `**`  
 - `p < 0.001` → `***`
 
-(Use numeric p-values together with stars in reports for clarity.)
-
 ### Effect-size measures
 
 **ω² and GES — proportion of explained variance (rules of thumb)**
@@ -122,7 +120,7 @@ The app prints significance stars according to p-values:
 
 Example: `ω² = 0.12` → moderate-to-large effect; about **12%** of the measured variance is explained by the factor.
 
-> **Note:** GES (generalized eta-squared) is preferred for repeated-measures / mixed designs; both ω² and GES are proportions of explained variance. Negative ω²/GES values (rare) usually indicate essentially zero effect and may be reported as ≈0.
+> **Note:** GES (generalized eta-squared) is preferred for repeated-measures / mixed designs; both ω² and GES are proportions of explained variance. Negative ω²/GES values usually indicate essentially zero effect and may be reported as ≈0.
 
 **Cohen's d / Cohen's dz — standardized mean difference (in SD units)**
 
