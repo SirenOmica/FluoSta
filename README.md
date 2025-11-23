@@ -6,7 +6,8 @@
 
 If you use this software in a publication, please cite:
 
-**Elfimov K.A. et al. (2025)** — *Pipeline Analysis of Chemical Compound Internalization Using Imaging Flow Cytometry with FluoSta Software.*
+**Elfimov K, Gotfrid L, Nokhova A, Gashnikova M, Baboshko D, Totmenin A, Agaphonov A, Gashnikova N.** *A Semi-Automated Imaging Flow Cytometry Workflow for High-Throughput Quantification of Compound Internalization with IDEAS and FluoSta Software. Methods and Protocols.* 2025; 8(6):138. https://doi.org/10.3390/mps8060138
+
 
 **For technical support: `alina.nokhova@gmail.com`**
 
