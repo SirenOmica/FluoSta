@@ -1,8 +1,7 @@
-# --- FluoSta ------------------------------------------------------------------
-
-# Authors: Nokhova A.R., Elfimov K.A.
-# Purpose: Analyze flow-cytometry text exports (*.txt) and produce descriptive statistics, ANOVA/Tukey comparisons, repeated-measures analyses.
-# Please cite: Elfimov K.A. et al. (2025) Pipeline Analysis of Chemical Compound Internalization Us-ing Imaging Flow Cytometry with FluoSta Software.
+# FluoSta
+# Author: Nokhova A.R.
+# If you use FluoSta in your research, please cite: 
+# Elfimov K, Gotfrid L, Nokhova A, Gashnikova M, Baboshko D, Totmenin A, Agaphonov A, Gashnikova N. A Semi-Automated Imaging Flow Cytometry Workflow for High-Throughput Quantification of Compound Internalization with IDEAS and FluoSta Software. Methods and Protocols. 2025; 8(6):138. https://doi.org/10.3390/mps8060138
 
 # --- Packages -----------------------------------------------------------------
 packages <- c(
@@ -21,10 +20,10 @@ for (pkg in packages) {
 
 # --- UI -----------------------------------------------------------------------
 ui <- fluidPage(
-  p(
-    style = "background-color: #FFF4E6; padding: 8px 12px; border-radius: 6px; display: inline-block;",
-    span(style = "color: #000000;", "Please cite: "),
-    strong(style = "color: #E7670E;", "Elfimov K.A. (2025) Pipeline Analysis of Chemical Compound Internalization Using Imaging Flow Cytometry with FluoSta Software")
+  div(
+    style = "background-color: #FFF4E6; padding: 9px 14px; border-radius: 6px; display: inline-block;",
+    p(style = "color: #000000; margin: 0;", "If you use FluoSta in your research, please cite: "),
+    p(style = "color: #E7670E; font-weight: bold; margin: 0;", "Elfimov K, Gotfrid L, Nokhova A, Gashnikova M, Baboshko D, Totmenin A, Agaphonov A, Gashnikova N. A Semi-Automated Imaging Flow Cytometry Workflow for High-Throughput Quantification of Compound Internalization with IDEAS and FluoSta Software. Methods and Protocols. 2025; 8(6):138. https://doi.org/10.3390/mps8060138")
   ),
   p("For technical support regarding FluoSta, contact: alina.nokhova@gmail.com"),
   
@@ -200,7 +199,8 @@ server <- function(input, output, session) {
       
       t <- sub(".*_([^_]+)_time\\.txt$", "\\1", basename(fn))
       raw <- readLines(fn, warn = FALSE)
-      hdr <- grep("^File\\b", raw)[1]
+      # find header line starting with 'File' (allow leading spaces)
+      hdr <- grep("^\\s*File\\b", raw)[1]
       if (is.na(hdr)) {
         log_message(paste("WARNING: file", basename(fn), "does not contain a 'File' header line — skipping"), "WARNING")
         next
@@ -229,6 +229,7 @@ server <- function(input, output, session) {
       
       sub <- df0[valid, ]
       
+      # Num and File (substance) extraction
       Num <- as.integer(sub(".*[-_]([0-9]+)\\.daf$", "\\1", sub$File))
       File <- sub("_[0-9]+\\.daf$", "", sub$File)
       File <- gsub("-", "_", File, fixed = TRUE)
@@ -368,6 +369,17 @@ server <- function(input, output, session) {
             desc_df <- rbind(desc_df, data.frame(Substance = g, Time = t, Feature = feat,
                                                  Mean = round(means[g], 4), SD = ifelse(is.na(sds[g]), 0, round(sds[g], 5)), stringsAsFactors = FALSE))
           }
+        }
+        
+        # If there are fewer than 2 distinct valid substances, ANOVA across substances is not applicable
+        unique_mods <- unique(sub_t_valid$File)
+        unique_mods <- unique_mods[!is.na(unique_mods)]
+        if (length(unique_mods) < 2) {
+          comp_df <- rbind(comp_df, data.frame(Comparison = "Comparison of all substances at this time", Time = t, Feature = feat,
+                                               F_from_ANOVA = NA, p_for_ANOVA = NA, Omega2 = NA, Omega2_CI_Lower = "", Omega2_CI_Upper = "", p_Tukey = NA, Cohens_d = NA,
+                                               Significance = "", Comments = "Only one substance present at this time: ANOVA not applicable", Comp_Type = "all", stringsAsFactors = FALSE))
+          log_message(paste("INFO:", feat, "at time", t, "- only one substance present, skipping across-substance ANOVA"), "INFO")
+          next
         }
         
         if (length(na.omit(vals)) < 2 || var(vals, na.rm = TRUE) == 0) {
